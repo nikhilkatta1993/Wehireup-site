@@ -3,15 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>We Hire Up | Offshore Development Teams for Small Businesses</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <title>We Hire Up | Offshore Development Teams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="images/logo.png" type="image/png" />
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
     <div class="container navbar">
-      <a href="index.html"><img src="images/logo.png" alt="We Hire Up Logo" class="logo" /></a>
+      <a href="index.html">
+        <img src="images/logo.png" alt="We Hire Up Logo" class="logo" />
+      </a>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <svg viewBox="0 0 100 80" width="30" height="30" fill="#0a3d62">
           <rect width="100" height="10"></rect>
@@ -29,157 +33,64 @@
     </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
-    <div class="container" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
-      <div class="hero-text" style="flex: 1; min-width: 300px;">
+    <div class="container" style="display:flex;flex-wrap:wrap;align-items:center;gap:2rem;">
+      <div class="hero-text">
         <h1>Offshore Development Teams for Growing Businesses</h1>
-        <p>Hand-Picked Developers. Trusted Partnerships. Scalable Results. Get top-tier remote talent on a predictable, fixed-cost plan—no surprises.</p>
+        <p>Hand-Picked Developers. Trusted Partnerships. Scalable Results.</p>
         <div class="cta-buttons">
           <a href="contact.html" class="btn-primary">Get a Free Consultation</a>
-          <a href="#services" class="btn-secondary">View Services</a>
+          <a href="#features" class="btn-secondary">View Our Services</a>
         </div>
-        <p style="margin-top:1rem; color:#666; font-size:0.95rem;">Serving 50+ small businesses across the U.S. & Europe.</p>
+        <p style="margin-top:1rem;color:#666;font-size:0.95rem;">
+          Serving 50+ small businesses across the U.S. & Europe.
+        </p>
       </div>
-      <div class="hero-image" style="flex: 1; min-width:300px; text-align:center;">
-        <img src="images/hero-placeholder.png" alt="Hero Image Placeholder" />
-      </div>
-    </div>
-  </section>
-
-  <section id="services" class="services">
-    <div class="container">
-      <h2 class="section-title">Our Services</h2>
-      <div class="service-cards">
-        <div class="service-card">
-          <img src="images/service-placeholder.png" alt="Remote Software Development" />
-          <h3>Remote Software Development</h3>
-          <p>Full-stack web and mobile app development teams in JavaScript (React, Node.js), .NET Core, Python/Django, PHP/Laravel, and more.</p>
-        </div>
-        <div class="service-card">
-          <img src="images/service-placeholder.png" alt="Quality Assurance & Automation" />
-          <h3>Quality Assurance & Automation</h3>
-          <p>Manual and automated testing experts (Selenium, Cypress, Jest) to ensure your software is bug-free and production-ready.</p>
-        </div>
-        <div class="service-card">
-          <img src="images/service-placeholder.png" alt="DevOps & Cloud Infrastructure" />
-          <h3>DevOps & Cloud Infrastructure</h3>
-          <p>CI/CD pipelines, cloud provisioning, Docker/Kubernetes, AWS/Azure/GCP – our DevOps team builds and maintains your reliable infrastructure.</p>
-        </div>
-        <div class="service-card">
-          <img src="images/service-placeholder.png" alt="UI/UX & Front-End Specialists" />
-          <h3>UI/UX & Front-End Specialists</h3>
-          <p>Pixel-perfect designers and front-end devs who turn your user experience vision into reality (HTML/CSS, React, Vue, Flutter).</p>
-        </div>
-        <div class="service-card">
-          <img src="images/service-placeholder.png" alt="Custom Support & Maintenance" />
-          <h3>Custom Support & Maintenance</h3>
-          <p>Ongoing bug fixes, feature enhancements, and dedicated support hours to keep your application running smoothly.</p>
-        </div>
+      <div class="hero-image">
+        <img src="images/hero.png" alt="Team collaborating" />
       </div>
     </div>
   </section>
 
-  <section class="features">
+  <!-- FEATURES -->
+  <section id="features" class="features">
     <div class="container">
       <h2 class="section-title">Why Choose Us</h2>
       <div class="feature-cards">
+        <!-- 4 Static Features: keep icons as before -->
         <div class="feature-card">
-          <img src="images/service-placeholder.png" alt="Transparent Pricing" />
+          <img src="images/icon-pricing.svg" alt="Transparent Pricing" />
           <h3>Transparent Pricing</h3>
-          <p>Fixed-cost monthly rates—no surprises. Budget confidently while we deliver high-quality code.</p>
+          <p>Fixed-cost monthly rates—no surprises. Budget confidently.</p>
         </div>
         <div class="feature-card">
-          <img src="images/service-placeholder.png" alt="Vetted Talent Pool" />
-          <h3>Vetted Talent Pool</h3>
-          <p>Senior developers, QA analysts, and DevOps engineers—rigorously vetted and ready to code from day one.</p>
+          <img src="images/icon-team.svg" alt="Expert Talent Pool" />
+          <h3>Expert Talent Pool</h3>
+          <p>Senior developers, QA analysts & DevOps engineers—vetted & ready.</p>
         </div>
         <div class="feature-card">
-          <img src="images/service-placeholder.png" alt="Flexible & Scalable" />
+          <img src="images/icon-scalable.svg" alt="Flexible & Scalable" />
           <h3>Flexible & Scalable</h3>
-          <p>Scale your team up or down as project demands shift. Pay only for what you need.</p>
+          <p>Scale your team up or down as project demands shift.</p>
         </div>
         <div class="feature-card">
-          <img src="images/service-placeholder.png" alt="Rapid Onboarding" />
+          <img src="images/icon-onboarding.svg" alt="Rapid Onboarding" />
           <h3>Rapid Onboarding</h3>
-          <p>Our process delivers developer matches within 1–2 weeks so you can start building immediately.</p>
+          <p>Developer matches in 1–2 weeks so you start building immediately.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="about">
-    <div class="container">
-      <h2 class="section-title">About Us</h2>
-      <div class="about-container">
-        <div class="about-text">
-          <p>Founded in 2020, We Hire Up has helped over 75 small and midsized businesses in North America and Europe quickly build and manage remote software teams. We believe in human-first partnerships: our hiring process focuses on technical depth, communication skills, and cultural fit. Each candidate is rigorously vetted to ensure your project gets top-tier talent from day one.</p>
-          <p>Our core values are Transparency, Reliability, and Excellence. Whether you need a React engineer, a QA automation specialist, or a DevOps guru, we match you with professionals who integrate seamlessly into your team and workflow.</p>
-        </div>
-        <img src="images/team-placeholder.png" alt="Team Placeholder" style="flex:1; border-radius: 8px;" />
-      </div>
-    </div>
-  </section>
-
-  <section class="case-studies">
-    <div class="container">
-      <h2 class="section-title">Case Studies</h2>
-      <div class="case-gallery">
-        <div class="case-card">
-          <img src="images/case-placeholder.png" alt="Case Study 1" />
-          <div class="case-card-content">
-            <h3>E-Commerce Platform for Retail Startup</h3>
-            <p>We provided a 4-person React/Node.js team that built a full shopping cart, payment integration, and admin dashboard in 10 weeks. Result: 30% faster time-to-market.</p>
-          </div>
-        </div>
-        <div class="case-card">
-          <img src="images/case-placeholder.png" alt="Case Study 2" />
-          <div class="case-card-content">
-            <h3>Automated Testing Suite for FinTech App</h3>
-            <p>Our QA engineers implemented Selenium and Cypress test frameworks, reducing manual QA cycles by 60% and catching 95% of bugs pre-release.</p>
-          </div>
-        </div>
-        <div class="case-card">
-          <img src="images/case-placeholder.png" alt="Case Study 3" />
-          <div class="case-card-content">
-            <h3>DevOps Infrastructure for SaaS Company</h3>
-            <p>Designed and deployed a Kubernetes cluster on AWS EKS with CI/CD pipelines, enabling zero-downtime deployments and scaling to 100k monthly users seamlessly.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <form class="contact-form" action="mailto:support@wehireup.com" method="POST" enctype="text/plain">
-        <label for="name">Name*</label>
-        <input type="text" id="name" name="name" required />
-        <label for="email">Email*</label>
-        <input type="email" id="email" name="email" required />
-        <label for="phone">Phone</label>
-        <input type="tel" id="phone" name="phone" placeholder="+1 (480) 559-8745" />
-        <label for="inquiry">I’m Interested In*</label>
-        <select id="inquiry" name="inquiry" required>
-          <option value="" disabled selected>Select a Service</option>
-          <option value="Remote Software Dev">Remote Software Dev</option>
-          <option value="QA & Automation">QA & Automation</option>
-          <option value="DevOps & Cloud">DevOps & Cloud</option>
-          <option value="UI/UX & Front-End">UI/UX & Front-End</option>
-          <option value="Custom Support">Custom Support</option>
-        </select>
-        <label for="message">Message*</label>
-        <textarea id="message" name="message" rows="6" required></textarea>
-        <button type="submit">Send Inquiry</button>
-      </form>
-    </div>
-  </section>
-
+  <!-- FOOTER -->
   <footer>
     <div class="container footer-container">
       <div class="footer-column">
         <h3>We Hire Up</h3>
-        <p style="color: #d1d1d1; font-size:0.95rem;">Empowering small businesses with offshore staffing and coding solutions. Get top talent on a transparent monthly plan.</p>
+        <p style="color:#d1d1d1;font-size:0.95rem;">
+          Empowering small businesses with offshore staffing & coding solutions.
+        </p>
       </div>
       <div class="footer-column">
         <h3>Quick Links</h3>
@@ -194,20 +105,19 @@
       <div class="footer-column">
         <h3>Connect</h3>
         <ul>
-          <li>Email: <a href="mailto:support@wehireup.com" style="color:#ffffff;">support@wehireup.com</a></li>
-          <li>Phone: <a href="tel:+14805598745" style="color:#ffffff;">+1 (480) 559-8745</a></li>
-          <li><a href="https://www.linkedin.com/company/wehireup" target="_blank">LinkedIn</a></li>
-          <li><a href="https://twitter.com/wehireup" target="_blank">Twitter</a></li>
-          <li><a href="https://github.com/wehireup" target="_blank">GitHub</a></li>
+          <li>Email: <a href="mailto:support@wehireup.com">support@wehireup.com</a></li>
+          <li>Phone: <a href="tel:+14805598745">+1 (480) 559-8745</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; 2025 We Hire Up. All Rights Reserved. &nbsp; | &nbsp;
-      <a href="privacy.html" style="color:#d1d1d1; text-decoration:none;">Privacy Policy</a>
+      &copy; 2025 We Hire Up. All Rights Reserved.
     </div>
   </footer>
 
+  <!-- Mobile Nav Toggle -->
   <script>
     const navToggle = document.querySelector(".nav-toggle");
     const navLinks = document.querySelector(".nav-links");

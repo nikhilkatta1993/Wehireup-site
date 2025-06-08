@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Services | We Hire Up</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services | We Hire Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="images/logo.png" type="image/png" />
 </head>
 <body>
   <header>
     <div class="container navbar">
-      <a href="index.html"><img src="images/logo.png" alt="We Hire Up Logo" class="logo" /></a>
+      <a href="index.html"><img src="images/logo.png" alt="We Hire Up Logo" class="logo"/></a>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <svg viewBox="0 0 100 80" width="30" height="30" fill="#0a3d62">
-          <rect width="100" height="10"></rect>
-          <rect y="30" width="100" height="10"></rect>
-          <rect y="60" width="100" height="10"></rect>
+          <rect width="100" height="10"/>
+          <rect y="30" width="100" height="10"/>
+          <rect y="60" width="100" height="10"/>
         </svg>
       </button>
       <ul class="nav-links">
@@ -33,30 +32,29 @@
     <div class="container">
       <h2 class="section-title">Our Services</h2>
       <div class="service-cards">
+        <!-- Remote Dev -->
         <div class="service-card">
-          <img src="images/service-placeholder.png" alt="Remote Software Development" />
+          <img src="images/service-dev.png" alt="Remote Development">
           <h3>Remote Software Development</h3>
-          <p>Full-stack web and mobile app development teams in JavaScript (React, Node.js), .NET Core, Python/Django, PHP/Laravel, and more.</p>
+          <p>Full-stack teams: React, Node.js, .NET, Python, PHP & more.</p>
         </div>
+        <!-- QA & Testing -->
         <div class="service-card">
-          <img src="images/service-placeholder.png" alt="Quality Assurance & Automation" />
+          <img src="images/service-qa.png" alt="QA & Testing">
           <h3>Quality Assurance & Automation</h3>
-          <p>Manual and automated testing experts (Selenium, Cypress, Jest) to ensure your software is bug-free and production-ready.</p>
+          <p>Selenium, Cypress, Jest—end-to-end testing for bug-free releases.</p>
         </div>
+        <!-- DevOps -->
         <div class="service-card">
-          <img src="images/service-placeholder.png" alt="DevOps & Cloud Infrastructure" />
+          <img src="images/service-devops.png" alt="DevOps & Cloud">
           <h3>DevOps & Cloud Infrastructure</h3>
-          <p>CI/CD pipelines, cloud provisioning, Docker/Kubernetes, AWS/Azure/GCP – our DevOps team builds and maintains your reliable infrastructure.</p>
+          <p>CI/CD pipelines, Docker/K8s, AWS/Azure/GCP provisioning & support.</p>
         </div>
+        <!-- UI/UX -->
         <div class="service-card">
-          <img src="images/service-placeholder.png" alt="UI/UX & Front-End Specialists" />
+          <img src="images/service-uiux.png" alt="UI/UX & Front-End">
           <h3>UI/UX & Front-End Specialists</h3>
-          <p>Pixel-perfect designers and front-end devs who turn your user experience vision into reality (HTML/CSS, React, Vue, Flutter).</p>
-        </div>
-        <div class="service-card">
-          <img src="images/service-placeholder.png" alt="Custom Support & Maintenance" />
-          <h3>Custom Support & Maintenance</h3>
-          <p>Ongoing bug fixes, feature enhancements, and dedicated support hours to keep your application running smoothly.</p>
+          <p>Wireframes, prototypes, pixel-perfect front-end (HTML/CSS, React).</p>
         </div>
       </div>
     </div>
@@ -66,7 +64,7 @@
     <div class="container footer-container">
       <div class="footer-column">
         <h3>We Hire Up</h3>
-        <p style="color: #d1d1d1; font-size:0.95rem;">Empowering small businesses with offshore staffing and coding solutions. Get top talent on a transparent monthly plan.</p>
+        <p style="color:#d1d1d1;font-size:0.95rem;">Offshore staffing & coding solutions on a transparent monthly plan.</p>
       </div>
       <div class="footer-column">
         <h3>Quick Links</h3>
@@ -81,26 +79,17 @@
       <div class="footer-column">
         <h3>Connect</h3>
         <ul>
-          <li><a href="mailto:support@wehireup.com" style="color:#ffffff;">support@wehireup.com</a></li>
-          <li><a href="tel:+14805598745" style="color:#ffffff;">+1 (480) 559-8745</a></li>
-          <li><a href="https://www.linkedin.com/company/wehireup" target="_blank">LinkedIn</a></li>
-          <li><a href="https://twitter.com/wehireup" target="_blank">Twitter</a></li>
-          <li><a href="https://github.com/wehireup" target="_blank">GitHub</a></li>
+          <li>Email: <a href="mailto:support@wehireup.com">support@wehireup.com</a></li>
+          <li>Phone: <a href="tel:+14805598745">+1 (480) 559-8745</a></li>
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">
-      &copy; 2025 We Hire Up. All Rights Reserved. &nbsp; | &nbsp;
-      <a href="privacy.html" style="color:#d1d1d1; text-decoration:none;">Privacy Policy</a>
-    </div>
+    <div class="footer-bottom">&copy; 2025 We Hire Up. All Rights Reserved.</div>
   </footer>
 
   <script>
-    const navToggle = document.querySelector(".nav-toggle");
-    const navLinks = document.querySelector(".nav-links");
-    navToggle.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
-    });
+    document.querySelector(".nav-toggle")
+      .addEventListener("click", () => document.querySelector(".nav-links").classList.toggle("active"));
   </script>
 </body>
 </html>
