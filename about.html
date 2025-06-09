@@ -1,5 +1,78 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport"content="width=device-width,initial-scale=1.0"/><title>About Us</title><link rel="stylesheet"href="css/style.css"/></head><body>
-<header><img src="images/logo.png"class="logo"/><nav><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="case-studies.html">Case Studies</a><a href="contact.html">Contact</a></nav></header>
-<section class="section"><h1>About WeHireUp</h1><p>Founded in 2025, WeHireUp partners with small businesses to deliver top-tier onshore & offshore staffing and digital solutions, growing together every step.</p><img src="images/about-team.png"alt="Team"></section>
-<footer><p>&copy; 2025 WeHireUp.</p></footer></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | We Hire Up</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body>
+  <header>
+    <div class="container navbar">
+      <a href="index.html"><img src="images/logo.png" alt="We Hire Up Logo" class="logo"/></a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg viewBox="0 0 100 80" width="30" height="30" fill="#0a3d62">
+          <rect width="100" height="10"/>
+          <rect y="30" width="100" height="10"/>
+          <rect y="60" width="100" height="10"/>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2 class="section-title">About Us</h2>
+      <div class="about-container">
+        <div class="about-text">
+          <p>Founded in 2020, We Hire Up has helped 75+ SMBs in North America & Europe build remote software teams. Our human-first approach ensures deep technical expertise, clear communication, and perfect cultural fit—every time.</p>
+          <p>We believe in transparency, reliability, and excellence. From React engineers to DevOps gurus, our vetted experts integrate seamlessly into your workflows.</p>
+        </div>
+        <div class="about-image">
+          <img src="images/about-team.png" alt="Our team" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-column">
+        <h3>We Hire Up</h3>
+        <p style="color:#d1d1d1;font-size:0.95rem;">Offshore staffing & coding solutions for growth-minded businesses.</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Connect</h3>
+        <ul>
+          <li>Email: <a href="mailto:support@wehireup.com">support@wehireup.com</a></li>
+          <li>Phone: <a href="tel:+14805598745">+1 (480) 559-8745</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2025 We Hire Up. All Rights Reserved.</div>
+  </footer>
+
+  <script>
+    document.querySelector(".nav-toggle")
+      .addEventListener("click", () => document.querySelector(".nav-links").classList.toggle("active"));
+  </script>
+</body>
+</html>
