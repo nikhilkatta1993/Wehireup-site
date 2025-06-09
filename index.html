@@ -1,1 +1,129 @@
-<!-- Main landing page as previously generated -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We Hire Up | Offshore Development Teams</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container navbar">
+      <a href="index.html">
+        <img src="images/logo.png" alt="We Hire Up Logo" class="logo" />
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <svg viewBox="0 0 100 80" width="30" height="30" fill="#0a3d62">
+          <rect width="100" height="10"></rect>
+          <rect y="30" width="100" height="10"></rect>
+          <rect y="60" width="100" height="10"></rect>
+        </svg>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="case-studies.html">Case Studies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container" style="display:flex;flex-wrap:wrap;align-items:center;gap:2rem;">
+      <div class="hero-text">
+        <h1>Offshore Development Teams for Growing Businesses</h1>
+        <p>Hand-Picked Developers. Trusted Partnerships. Scalable Results.</p>
+        <div class="cta-buttons">
+          <a href="contact.html" class="btn-primary">Get a Free Consultation</a>
+          <a href="#features" class="btn-secondary">View Our Services</a>
+        </div>
+        <p style="margin-top:1rem;color:#666;font-size:0.95rem;">
+          Serving 50+ small businesses across the U.S. & Europe.
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero.png" alt="Team collaborating" />
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="feature-cards">
+        <!-- 4 Static Features: keep icons as before -->
+        <div class="feature-card">
+          <img src="images/icon-pricing.png" alt="Transparent Pricing" />
+          <h3>Transparent Pricing</h3>
+          <p>Fixed-cost monthly rates—no surprises. Budget confidently.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/icon-team.png" alt="Expert Talent Pool" />
+          <h3>Expert Talent Pool</h3>
+          <p>Senior developers, QA analysts & DevOps engineers—vetted & ready.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/icon-scalable.png" alt="Flexible & Scalable" />
+          <h3>Flexible & Scalable</h3>
+          <p>Scale your team up or down as project demands shift.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/icon-onboarding.png" alt="Rapid Onboarding" />
+          <h3>Rapid Onboarding</h3>
+          <p>Developer matches in 1–2 weeks so you start building immediately.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-column">
+        <h3>We Hire Up</h3>
+        <p style="color:#d1d1d1;font-size:0.95rem;">
+          Empowering small businesses with offshore staffing & coding solutions.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="case-studies.html">Case Studies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Connect</h3>
+        <ul>
+          <li>Email: <a href="mailto:support@wehireup.com">support@wehireup.com</a></li>
+          <li>Phone: <a href="tel:+14805598745">+1 (480) 559-8745</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 We Hire Up. All Rights Reserved.
+    </div>
+  </footer>
+
+  <!-- Mobile Nav Toggle -->
+  <script>
+    const navToggle = document.querySelector(".nav-toggle");
+    const navLinks = document.querySelector(".nav-links");
+    navToggle.addEventListener("click", () => {
+      navLinks.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
