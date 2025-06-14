@@ -3,28 +3,26 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>We Hire Up | Offshore Development Teams</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <title>We Hire Up | Offshore Teams & Digital Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="images/logo.png" type="image/png" />
 </head>
 <body>
-
-  <!-- HEADER -->
   <header>
     <div class="container navbar">
       <a href="index.html">
         <img src="images/logo.png" alt="We Hire Up Logo" class="logo" />
       </a>
       <button class="nav-toggle" aria-label="Toggle navigation">
-        <svg viewBox="0 0 100 80" width="30" height="30" fill="#0a3d62">
+        <svg viewBox="0 0 100 80" width="32" height="32" fill="#0a3d62">
           <rect width="100" height="10"></rect>
           <rect y="30" width="100" height="10"></rect>
           <rect y="60" width="100" height="10"></rect>
         </svg>
       </button>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="case-studies.html">Case Studies</a></li>
@@ -32,64 +30,59 @@
       </ul>
     </div>
   </header>
-
-  <!-- HERO -->
   <section class="hero">
-    <div class="container" style="display:flex;flex-wrap:wrap;align-items:center;gap:2rem;">
+    <div class="container hero-content">
       <div class="hero-text">
-        <h1>Offshore Development Teams for Growing Businesses</h1>
-        <p>Hand-Picked Developers. Trusted Partnerships. Scalable Results.</p>
+        <h1>Empowering Ambitious Businesses with Modern Teams</h1>
+        <p class="tagline">Founded in 2025, We Hire Up partners with startups and small businesses to deliver creative, scalable solutions and accelerate your growth.</p>
         <div class="cta-buttons">
-          <a href="contact.html" class="btn-primary">Get a Free Consultation</a>
-          <a href="#features" class="btn-secondary">View Our Services</a>
+          <a href="contact.html" class="btn-primary">Get Started</a>
+          <a href="#features" class="btn-secondary">Learn More</a>
         </div>
-        <p style="margin-top:1rem;color:#666;font-size:0.95rem;">
-          Serving 50+ small businesses across the U.S. & Europe.
-        </p>
+        <ul class="hero-badges">
+          <li><img src="images/badge-remote.svg" alt="Remote Friendly" /> Remote Teams</li>
+          <li><img src="images/badge-ai.svg" alt="AI Enabled" /> AI Solutions</li>
+          <li><img src="images/badge-support.svg" alt="24/7 Support" /> 24/7 Support</li>
+        </ul>
       </div>
       <div class="hero-image">
-        <img src="images/hero.png" alt="Team collaborating" />
+        <img src="images/hero.jpg" alt="Modern digital team" />
       </div>
     </div>
   </section>
-
-  <!-- FEATURES -->
-  <section id="features" class="features">
+  <section id="features" class="features glass">
     <div class="container">
-      <h2 class="section-title">Why Choose Us</h2>
+      <h2 class="section-title">Why Choose We Hire Up?</h2>
       <div class="feature-cards">
-        <!-- 4 Static Features: keep icons as before -->
         <div class="feature-card">
-          <img src="images/icon-pricing.png" alt="Transparent Pricing" />
+          <img src="images/icon-pricing.svg" alt="Transparent Pricing" />
           <h3>Transparent Pricing</h3>
-          <p>Fixed-cost monthly rates—no surprises. Budget confidently.</p>
+          <p>Predictable, fixed monthly rates. No surprises—ever.</p>
         </div>
         <div class="feature-card">
-          <img src="images/icon-team.png" alt="Expert Talent Pool" />
-          <h3>Expert Talent Pool</h3>
-          <p>Senior developers, QA analysts & DevOps engineers—vetted & ready.</p>
+          <img src="images/icon-expert.svg" alt="Expert Talent" />
+          <h3>Vetted Experts</h3>
+          <p>Skilled developers, QA, DevOps, customer support, and marketers—handpicked for your needs.</p>
         </div>
         <div class="feature-card">
-          <img src="images/icon-scalable.png" alt="Flexible & Scalable" />
-          <h3>Flexible & Scalable</h3>
-          <p>Scale your team up or down as project demands shift.</p>
+          <img src="images/icon-scalable.svg" alt="Flexible Scale" />
+          <h3>Flexible Scaling</h3>
+          <p>Effortlessly ramp teams up or down as your business evolves.</p>
         </div>
         <div class="feature-card">
-          <img src="images/icon-onboarding.png" alt="Rapid Onboarding" />
-          <h3>Rapid Onboarding</h3>
-          <p>Developer matches in 1–2 weeks so you start building immediately.</p>
+          <img src="images/icon-rocket.svg" alt="Rapid Onboarding" />
+          <h3>Fast Onboarding</h3>
+          <p>Start building in as little as one week with seamless integration.</p>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- FOOTER -->
   <footer>
     <div class="container footer-container">
       <div class="footer-column">
         <h3>We Hire Up</h3>
-        <p style="color:#d1d1d1;font-size:0.95rem;">
-          Empowering small businesses with offshore staffing & coding solutions.
+        <p class="footer-desc">
+          World-class offshore staffing, digital solutions, and business growth, powered by the latest technologies.
         </p>
       </div>
       <div class="footer-column">
@@ -113,11 +106,9 @@
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; 2025 We Hire Up. All Rights Reserved.
+      &copy; 2025 We Hire Up. All rights reserved.
     </div>
   </footer>
-
-  <!-- Mobile Nav Toggle -->
   <script>
     const navToggle = document.querySelector(".nav-toggle");
     const navLinks = document.querySelector(".nav-links");

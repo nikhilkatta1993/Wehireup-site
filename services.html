@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Our Services | We Hire Up</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="css/style.css" />
   <link rel="icon" href="images/logo.png" type="image/png" />
 </head>
@@ -12,7 +12,7 @@
     <div class="container navbar">
       <a href="index.html"><img src="images/logo.png" alt="We Hire Up Logo" class="logo"/></a>
       <button class="nav-toggle" aria-label="Toggle navigation">
-        <svg viewBox="0 0 100 80" width="30" height="30" fill="#0a3d62">
+        <svg viewBox="0 0 100 80" width="32" height="32" fill="#0a3d62">
           <rect width="100" height="10"/>
           <rect y="30" width="100" height="10"/>
           <rect y="60" width="100" height="10"/>
@@ -27,44 +27,58 @@
       </ul>
     </div>
   </header>
-
   <section class="services">
     <div class="container">
       <h2 class="section-title">Our Services</h2>
       <div class="service-cards">
-        <!-- Remote Dev -->
         <div class="service-card">
-          <img src="images/service-dev.png" alt="Remote Development">
+          <img src="images/service-dev.jpg" alt="Remote Development">
           <h3>Remote Software Development</h3>
-          <p>Full-stack teams: React, Node.js, .NET, Python, PHP & more.</p>
+          <p>Comprehensive full-stack development teams: React, Node.js, .NET, Python, PHP, and more.</p>
         </div>
-        <!-- QA & Testing -->
         <div class="service-card">
-          <img src="images/service-qa.png" alt="QA & Testing">
+          <img src="images/service-qa.jpg" alt="QA & Testing">
           <h3>Quality Assurance & Automation</h3>
-          <p>Selenium, Cypress, Jest—end-to-end testing for bug-free releases.</p>
+          <p>Advanced testing using Selenium, Cypress, and Jest to ensure flawless releases.</p>
         </div>
-        <!-- DevOps -->
         <div class="service-card">
-          <img src="images/service-devops.png" alt="DevOps & Cloud">
+          <img src="images/service-devops.jpg" alt="DevOps & Cloud">
           <h3>DevOps & Cloud Infrastructure</h3>
-          <p>CI/CD pipelines, Docker/K8s, AWS/Azure/GCP provisioning & support.</p>
+          <p>CI/CD pipelines, cloud provisioning, and ongoing support for AWS, Azure, and GCP.</p>
         </div>
-        <!-- UI/UX -->
         <div class="service-card">
-          <img src="images/service-uiux.png" alt="UI/UX & Front-End">
-          <h3>UI/UX & Front-End Specialists</h3>
-          <p>Wireframes, prototypes, pixel-perfect front-end (HTML/CSS, React).</p>
+          <img src="images/service-support.jpg" alt="Customer Support">
+          <h3>Customer Support</h3>
+          <p>Reliable and empathetic support teams for phone, chat, and email communications.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/service-salesforce.jpg" alt="Salesforce">
+          <h3>Salesforce Solutions</h3>
+          <p>Implementation, customization, and maintenance for Salesforce platforms.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/service-ai.jpg" alt="AI Agents">
+          <h3>AI Agents & Automation</h3>
+          <p>Tailored AI bots for customer support, booking, and workflow automation.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/service-website.jpg" alt="Website Creation">
+          <h3>Website Creation</h3>
+          <p>Modern, engaging websites crafted for startups and small businesses.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/service-seo.jpg" alt="SEO & Digital Marketing">
+          <h3>SEO & Digital Marketing</h3>
+          <p>Professional SEO, Google Ads, and digital campaigns to boost your organization’s visibility and growth.</p>
         </div>
       </div>
     </div>
   </section>
-
   <footer>
     <div class="container footer-container">
       <div class="footer-column">
         <h3>We Hire Up</h3>
-        <p style="color:#d1d1d1;font-size:0.95rem;">Offshore staffing & coding solutions on a transparent monthly plan.</p>
+        <p class="footer-desc">Offshore staffing and digital solutions on a transparent monthly plan.</p>
       </div>
       <div class="footer-column">
         <h3>Quick Links</h3>
@@ -84,9 +98,8 @@
         </ul>
       </div>
     </div>
-    <div class="footer-bottom">&copy; 2025 We Hire Up. All Rights Reserved.</div>
+    <div class="footer-bottom">&copy; 2025 We Hire Up. All rights reserved.</div>
   </footer>
-
   <script>
     document.querySelector(".nav-toggle")
       .addEventListener("click", () => document.querySelector(".nav-links").classList.toggle("active"));
